@@ -1,16 +1,16 @@
-# ddatabase-strong-link
+# @ddatabase/strong-link
 
 Generate a "strong" link to a ddatabase seq that contains a root hash
 of the merkle tree at that time.
 
 ```
-npm install ddatabase-strong-link
+npm install @ddatabase/strong-link
 ```
 
 ## Usage
 
 ``` js
-const strongLink = require('ddatabase-strong-link')
+const strongLink = require('@ddatabase/strong-link')
 
 strongLink.generate(someFeed, 42, function (err, link) {
   if (err) throw err
