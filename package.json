@@ -1,13 +1,13 @@
 {
-  "name": "hypercore-strong-link",
-  "version": "3.0.0",
-  "description": "Generate a strong link to a hypercore seq that contains a root hash of the merkle tree at that time",
+  "name": "@ddatabase/strong-link",
+  "version": "1.0.0",
+  "description": "Generate a link to a dDatabase index that contains a root hash of the Merkle Tree at that time.",
   "main": "index.js",
   "dependencies": {
-    "hypercore-crypto": "^2.1.0"
+    "@ddatabase/crypto": "^1.0.0"
   },
   "devDependencies": {
-    "hypercore": "^9.1.0",
+    "ddatabase": "^10.0.0",
     "random-access-memory": "^3.1.1",
     "standard": "^14.3.4",
     "tape": "^5.0.1"
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/hypercore-strong-link.git"
+    "url": "https://github.com/dwebprotocol/ddatabase-strong-link.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/hypercore-strong-link/issues"
+    "url": "https://github.com/dwebprotocol/ddatabase-strong-link/issues"
   },
-  "homepage": "https://github.com/mafintosh/hypercore-strong-link"
+  "homepage": "https://dwebx.org"
 }
