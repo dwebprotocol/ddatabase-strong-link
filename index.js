@@ -1,4 +1,4 @@
-const crypto = require('hypercore-crypto')
+const crypto = require('@ddatabase/crypto')
 
 exports.generate = generate
 exports.verify = verify

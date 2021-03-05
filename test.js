@@ -1,14 +1,14 @@
 const tape = require('tape')
 const { verify, generate } = require('./')
 const ram = require('random-access-memory')
-const hypercore = require('hypercore')
+const ddatabase = require('ddatabase')
 
 tape('basic', function (t) {
   t.plan(1 + 2 + 1 + 2 + 1)
 
-  const feed = hypercore(ram)
-  const otherFeed = hypercore(ram)
-  const badFeed = hypercore(ram)
+  const feed = ddatabase(ram)
+  const otherFeed = ddatabase(ram)
+  const badFeed = ddatabase(ram)
 
   badFeed.append(['a', 'a', 'c'], function () {
     otherFeed.append(['a', 'b', 'c'], function () {
